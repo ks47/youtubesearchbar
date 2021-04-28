@@ -7,6 +7,8 @@ Next thing you know, you've wasted 5 minutes watching videos and getting distrac
 ## 🎉🎉Presenting YoutubeSearchBar🎉🎉
 
 Through its paginated searches,
-you can now go straight to the searching without getting distracted by the recommendations!
+you can now go straight to the searching without getting distracted by the recommendations at https://youtubesearchbar.herokuapp.com !
+
+<br />
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/32562908/116455087-4d3b2700-a87e-11eb-9bd4-475b4e53a748.png)
