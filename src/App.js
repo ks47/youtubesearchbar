@@ -10,12 +10,13 @@ function App() {
   const [ searchTerm, setSearchTerm ] = useState('');
   const [ pageToken, setPageToken ] = useState('');
 
-  const paginationConst = 10
+  const paginationConst = 10;
+  const apiKey = ""; // Add API Key here
 
   function buttonCLick(searchTerm, e, pageToken, list) {
         e.preventDefault();
         if(pageToken==='') {
-          fetch("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCe85OJw9ctJKInRy9IpR-w2OHQfDk2frU" + "&type=video&part=snippet&maxResults=" +  
+          fetch("https://www.googleapis.com/youtube/v3/search?key=" + apiKey + "&type=video&part=snippet&maxResults=" +  
             paginationConst + "&q=" + searchTerm)
           .then(response => response.json())
           .then(result => {
