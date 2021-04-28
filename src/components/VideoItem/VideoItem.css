@@ -1,0 +1,29 @@
+.videoLink {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.videoBox {
+    width: 340px;
+    height: 300px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.videoFrame {
+    height: 250px;
+    width: 320px;
+    border: none;
+}
+
+.videoText {
+    color: rgb(99, 99, 99);
+    margin: 2px;
+}
+
+.channelLink {
+    color: rgb(241, 89, 89);
+    text-decoration: none;
+}
