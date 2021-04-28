@@ -15,7 +15,7 @@ function App() {
 
   function buttonCLick(searchTerm, e) {
       e.preventDefault();
-        fetch("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCe85OJw9ctJKInRy9IpR-w2OHQfDk2frU" + "&type=video&part=snippet&maxResults=" +  
+        fetch("https://www.googleapis.com/youtube/v3/search?key=" + apiKey + "&type=video&part=snippet&maxResults=" +  
           paginationConst + "&q=" + searchTerm)
         .then(response => response.json())
         .then(result => {
@@ -37,7 +37,7 @@ function App() {
             })
           .catch(error => error);
         } else {
-          fetch("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCe85OJw9ctJKInRy9IpR-w2OHQfDk2frU" + "&type=video&part=snippet&maxResults=" +  
+          fetch("https://www.googleapis.com/youtube/v3/search?key=" + apiKey + "&type=video&part=snippet&maxResults=" +  
             paginationConst + "&pageToken=" + pageToken + "&q=" + searchTerm)
           .then(response => response.json())
           .then(result => {
