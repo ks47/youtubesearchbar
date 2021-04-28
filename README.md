@@ -8,6 +8,8 @@ Next thing you know, you've wasted 5 minutes watching videos and getting distrac
 
 Through its paginated searches,
 you can now go straight to the searching without getting distracted by the recommendations at https://youtubesearchbar.herokuapp.com !
+or
+By downloading the repository and adding your API Key to the app.js to make your version of the app!
 
 <br />
 
